@@ -1,0 +1,21 @@
+[submodule "Skeletor.core"]
+	path = Skeletor.core
+	url = https://github.com/delphic-digital/Skeletor.core
+[submodule "Skeletor.plugins/Skeletor.browsehappy"]
+	path = Skeletor.plugins/Skeletor.browsehappy
+	url = https://github.com/delphic-digital/Skeletor.browsehappy
+[submodule "Skeletor.plugins/Skeletor.flyouts"]
+	path = Skeletor.plugins/Skeletor.flyouts
+	url = https://github.com/delphic-digital/Skeletor.flyouts
+[submodule "Skeletor.sass/Skeletor.sass.flexgrid"]
+	path = Skeletor.sass/Skeletor.sass.flexgrid
+	url = https://github.com/delphic-digital/Skeletor.sass.flexgrid
+[submodule "Skeletor.sass/Skeletor.sass.helpers"]
+	path = Skeletor.sass/Skeletor.sass.helpers
+	url = https://github.com/delphic-digital/Skeletor.sass.helpers
+[submodule "Skeletor.sass/Skeletor.sass.utilities"]
+	path = Skeletor.sass/Skeletor.sass.utilities
+	url = https://github.com/delphic-digital/Skeletor.sass.utilities
+[submodule "Skeletor.util/Skeletor.util.componentLoader"]
+	path = Skeletor.util/Skeletor.util.componentLoader
+	url = https://github.com/delphic-digital/Skeletor.util.componentLoader
