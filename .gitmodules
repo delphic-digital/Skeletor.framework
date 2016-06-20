@@ -19,3 +19,6 @@
 [submodule "Skeletor.util/Skeletor.util.componentLoader"]
 	path = Skeletor.util/Skeletor.util.componentLoader
 	url = https://github.com/delphic-digital/Skeletor.util.componentLoader
+[submodule "Skeletor.util/Skeletor.util.detects.mobile"]
+	path = Skeletor.util/Skeletor.util.detects.mobile
+	url = https://github.com/delphic-digital/Skeletor.util.detects.mobile
