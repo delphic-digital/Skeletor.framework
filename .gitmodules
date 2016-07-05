@@ -22,3 +22,9 @@
 [submodule "Skeletor.util/Skeletor.util.detects.mobile"]
 	path = Skeletor.util/Skeletor.util.detects.mobile
 	url = https://github.com/delphic-digital/Skeletor.util.detects.mobile
+[submodule "Skeletor.util/Skeletor.util.detects.flexbox"]
+	path = Skeletor.util/Skeletor.util.detects.flexbox
+	url = https://github.com/delphic-digital/Skeletor.util.detects.flexbox
+[submodule "Skeletor.plugins/Skeletor.accordion"]
+	path = Skeletor.plugins/Skeletor.accordion
+	url = https://github.com/delphic-digital/Skeletor.accordion
