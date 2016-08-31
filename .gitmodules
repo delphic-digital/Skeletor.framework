@@ -28,3 +28,6 @@
 [submodule "Skeletor.plugins/Skeletor.accordion"]
 	path = Skeletor.plugins/Skeletor.accordion
 	url = https://github.com/delphic-digital/Skeletor.accordion
+[submodule "Skeletor.util/Skeletor.util.debug"]
+	path = Skeletor.util/Skeletor.util.debug
+	url = https://github.com/delphic-digital/Skeletor.util.debug.git
