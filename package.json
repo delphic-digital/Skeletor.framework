@@ -1,0 +1,33 @@
+{
+  "name": "skeletor.framework",
+  "version": "1.0.0",
+  "description": "JavaScript framework for Skeletor",
+  "main": "index.js",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delphic-digital/Skeletor.framework.git"
+  },
+  "keywords": [
+    "Skeletor"
+  ],
+  "author": "Delphic",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/delphic-digital/Skeletor.framework/issues"
+  },
+  "homepage": "https://github.com/delphic-digital/Skeletor.framework#readme",
+  "scripts": {
+    "scss": "node-sass Skeletor.plugins/ -o Skeletor.plugins/",
+    "serve": "browser-sync start --server --directory --files \"Skeletor.*/**/*.css, Skeletor.*/**/*.js, Skeletor.*/**/*.html, !node_modules/**/*.html\"",
+    "build:css": "npm run scss",
+    "watch:css": "onchange \"Skeletor.*/**/*.scss\" -- npm run build:css",
+    "watch:all": "npm-run-all -p serve watch:css"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "node-sass": "^3.7.0",
+    "npm-run-all": "^2.1.1",
+    "onchange": "^2.4.0"
+  }
+}
