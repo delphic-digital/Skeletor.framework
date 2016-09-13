@@ -5,8 +5,8 @@ var bourbon     = require('node-bourbon');
 var reload      = browserSync.reload;
 
 var src = {
-	scss: 'Skeletor.plugins/**/*.scss',
-	css:  'Skeletor.plugins/',
+	scss: ['**/[^_]*.scss','!Skeletor.sass/**/skeletor.sass.*.scss','!node_modules/**/*.scss'],
+	css:  '.',
 	html: 'Skeletor.*/**/*.html'
 };
 
@@ -29,7 +29,7 @@ gulp.task('serve', ['sass'], function() {
 		directory: true
 	});
 
-	gulp.watch(src.scss, ['sass']);
+	gulp.watch('Skeletor.*/**/*.scss', ['sass']);
 	gulp.watch(src.html).on('change', reload);
 });
 
