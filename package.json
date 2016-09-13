@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "JavaScript framework for Skeletor",
   "main": "index.js",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/delphic-digital/Skeletor.framework.git"
@@ -25,9 +24,12 @@
     "watch:all": "npm-run-all -p serve watch:css"
   },
   "devDependencies": {
-    "browser-sync": "^2.12.8",
-    "node-sass": "^3.7.0",
-    "npm-run-all": "^2.1.1",
-    "onchange": "^2.4.0"
+    "bourbon": "^4.2.7",
+    "breakpoint-sass": "^2.7.0",
+    "browser-sync": "^2.15.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "node-sass-globbing": "0.0.23",
+    "susy": "^2.2.12"
   }
 }
