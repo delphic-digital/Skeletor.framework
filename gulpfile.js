@@ -7,7 +7,7 @@ var reload      = browserSync.reload;
 var src = {
 	scss: ['**/[^_]*.scss','!Skeletor.sass/**/skeletor.sass.*.scss','!node_modules/**/*.scss'],
 	css:  '.',
-	html: 'Skeletor.*/**/*.html'
+	html: 'Skeletor.*/**/*.{html,js}'
 };
 
 var config = {
